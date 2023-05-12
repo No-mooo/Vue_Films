@@ -5,6 +5,11 @@
 Mozilla Firefox
 ```
 
+## Project created
+```
+10.05.2023
+```
+
 ## Project setup
 ```
 npm install
