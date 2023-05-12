@@ -1,5 +1,10 @@
 # vue_films
 
+## Browser
+```
+Mozilla Firefox
+```
+
 ## Project setup
 ```
 npm install
