@@ -1,6 +1,4 @@
 import { createStore } from 'vuex'
-import test1 from '@/store/test1'
-
 export default createStore({
   state: {
     listFilms: [
@@ -271,6 +269,5 @@ export default createStore({
   actions: {
   },
   modules: {
-    test1,
   }
 })

@@ -24,7 +24,6 @@ export default {
         SearchFields,
         NavList,
     },
-    // import SearchFields from '';
 }
 </script>
 

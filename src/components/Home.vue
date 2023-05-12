@@ -1,6 +1,5 @@
 <template>
     <Header></Header>
-    <!-- slider -->
     <SliderFilmsSerials
         :nameBlock="'Новинки'"
         :nameTarget="'all'"

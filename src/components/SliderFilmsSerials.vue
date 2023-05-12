@@ -1,6 +1,4 @@
 <template>
-    <!-- {{ getRatingList(nameTarget, sort, quantity) }} -->
-    <!-- {{ getRatingList() }} -->
     <div class="bestFilms">
         <div class="container">
             <div class="sliderName">
@@ -21,7 +19,6 @@ export default {
 
     data() {
         return {
-            // $store.get
             
         }
     },
@@ -30,12 +27,6 @@ export default {
         getList() {
             return this.$store.getters.getSortItem(this.nameTarget, this.sort, this.quantity);
         },
-
-        // test() {
-        //    return this.$store.getters.getAllSortItem('2', 22);
-
-        //     return 'rrr';
-        // },
     },
 
     components: {

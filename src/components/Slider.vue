@@ -12,19 +12,6 @@
             :listSlider="listSlider"
         >
         </PrintItem>
-
-        <!-- <router-link
-            v-for="slider in listSlider"
-            :key="slider.name"
-            :to="'/' +  slider.type + '/' + slider.id"
-        >
-            <img
-                class="sliderItem"
-                :src="slider.src"
-            >
-            <p class="nameFilm">{{ slider.name }}</p>
-        </router-link> -->
-
     </div>
 
     <div
@@ -139,18 +126,7 @@ export default {
 
 .sliderWrap {
     display: flex;
-    /* margin-left: -200px; */
     transition: all 0.3s;
     column-gap: 20px;
 }
-
-/* .sliderItem {
-    max-width: 400px !important;
-    height: auto;
-} */
-
-/* .nameFilm {
-    margin-top: 20px;
-    text-align: center;
-} */
 </style>

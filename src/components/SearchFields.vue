@@ -92,17 +92,12 @@ export default {
     color: #a44747;
 }
 
-
-
 .closeModal {
 	position: absolute;
-	/* top: 30px; */
-	/* right: 20px; */
     bottom: 0;
     left: 90%;
 	width: 14px;
 	height: 14px;
-	/* opacity: 0.2; */
 	cursor: pointer;
     transition: opacity ease 0.5s;
 }
@@ -110,7 +105,6 @@ export default {
 .closeModal::after {
 	content: '';
 	position: absolute;
-	/* top: 10px; */
 	display: block;
 	width: 13px;
 	height: 2px;

@@ -47,7 +47,6 @@ export default {
 .itemInfo {
     display: flex;
     column-gap: 60px;
-    /* justify-content: space-between; */
 }
 
 .itemInfo * {
