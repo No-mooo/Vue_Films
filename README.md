@@ -1,5 +1,15 @@
 # vue_films
 
+## Browser
+```
+Mozilla Firefox
+```
+
+## Project created
+```
+10.05.2023
+```
+
 ## Project setup
 ```
 npm install
@@ -14,6 +24,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
