@@ -1,13 +1,16 @@
 <template>
     <ul class="listNavWrap">
-        <router-link 
+        <li 
             v-for="itemNav in listNav"
             :key="itemNav.id"
-            :to="itemNav.route"
-            :class="{activeNav: $route.path == itemNav.route}"
         >
-            {{ itemNav.name }}
-        </router-link>
+            <router-link 
+                :to="itemNav.route"
+                :class="{activeNav: $route.path == itemNav.route}"
+            >
+                {{ itemNav.name }}
+            </router-link>
+        </li>
     </ul>
 </template>
 
